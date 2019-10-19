@@ -1,4 +1,4 @@
-DEPRECATED | Bootstrap 4 - Sublime Plugin :red_circle:
+Bootstrap 4 - Sublime Plugin :red_circle:
 ============================
 
 #### A sublime plugin complete with Bootstrap 4 snippets
@@ -86,7 +86,6 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 #### <a name="imports">Imports</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-
 | b4:cdn                      | Generates CSS & JS call using CDN     |
 | b4:cdn_css                  | Generates CSS call using CDN          |
 | b4:cdn_js                   | Generates JS call using CDN           |
