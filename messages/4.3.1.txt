@@ -1,0 +1,12 @@
+
+============================================================
+Bootstrap 4 Snippets - Has been updated !! -> v4.3.1
+============================================================
+        Bootstrap v4.3.1 has been released !!
+============================================================
+Follow me on Twitter: @de_gouville
+------------------------------------------------------------
+
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/degouville/sublime-bootstrap4
