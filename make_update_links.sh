@@ -9,7 +9,7 @@ old_cdn_popper="none"
 old_cdn_bootstrap="none"
 
 function replace () {
-  sed -i -e "s\$1\$2\g" $3
+  sed -i -e "s\\$1\\$2\\g" $3
 }
 
 # find what to replace
@@ -32,6 +32,7 @@ while IFS= read -r line; do
   fi
 done < "$links_doc"
 
+# prompt new values
 echo "new cdn_css:"
 read cdn_css
 echo "new cdn_jq:"
@@ -48,4 +49,8 @@ function process() {
   replace "$old_cdn_bootstrap" "$cdn_bootstrap" $1
 }
 
-find "$repo_dir" -type f -not -path "$repo_dir/.git/*" -exec process {} \;
+# file by file in snippets, do replacements
+while read filename; do
+  echo "processing $filename"
+  process "${filename}"
+done < <(find "$repo_dir/snippets" -type f)
