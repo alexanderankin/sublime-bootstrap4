@@ -2,15 +2,10 @@ DEPRECATED | Bootstrap 4 - Sublime Plugin :red_circle:
 ============================
 
 #### A sublime plugin complete with Bootstrap 4 snippets
-#### :fire: Up to date w/ 4.0.0-beta :fire:
 
 ---
 
-Feel free to let me know what else you want added via:
-
-- Twitter [@de_gouville](https://twitter.com/de_gouville)
-- Slack   [@de_gouville](https://getbootstrap.slack.com/messages/@degouville/)
-- GitHub  [Issues](https://github.com/mdegoo/sublime-bootstrap4/issues)
+Feel free to let me know what else you want added via Twitter [@DavidAnkin](https://twitter.com/DavidAnkin).
 
 ![](https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview.png)
 
@@ -21,7 +16,7 @@ There are 3 methods for installing this plugin.
 **Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
 2. Clone the repository into your Sublime Text 2/3 packages directory.
-`git clone https://github.com/degouville/sublime-bootstrap4.git`
+`git clone https://github.com/alexander/sublime-bootstrap4.git`
 
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
