@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<input class="form-control" type="text" placeholder="${10:Readonly input here…" readonl}y>
+<input class="form-control" type="text" placeholder="${10:Readonly input here...}" readonly>
 ]]></content>
 	<tabTrigger>b4:form:readonly</tabTrigger>
 </snippet>

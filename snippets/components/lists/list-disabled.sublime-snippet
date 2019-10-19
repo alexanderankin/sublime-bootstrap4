@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-        <div class="list-group">
-			<a href="#" class="list-group-item disabled">${1:Cras justo odio}</a>
-			<a href="#" class="list-group-item">${1:Dapibus ac facilisis in}</a>
-			<a href="#" class="list-group-item">${1:Morbi leo risus}</a>
-		</div>
+<div class="list-group">
+	<a href="#" class="list-group-item disabled">${1:Cras justo odio}</a>
+	<a href="#" class="list-group-item">${2:Dapibus ac facilisis in}</a>
+	<a href="#" class="list-group-item">${3:Morbi leo risus}</a>
+</div>
 ]]></content>
 	<tabTrigger>b4:list:disabled</tabTrigger>
 </snippet>

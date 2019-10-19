@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<span class="label label-default">$1</span>
+<span class="label label-default">${1}</span>
 ]]></content>
 	<tabTrigger>b4:label</tabTrigger>
 </snippet>

@@ -1,26 +1,26 @@
 <snippet>
 	<content><![CDATA[
-		<nav>
-			<ul class="pagination">
-				<li>
-					<a href="${3:#}" aria-label="${4:Previous}">
-						<span aria-hidden="true">&laquo;</span>
-						<span class="sr-only">${4:Previous}</span>
-					</a>
-				</li>
-				<li><a href="${1:#}">1</a></li>
-				<li><a href="${1:#}">2</a></li>
-				<li><a href="${1:#}">3</a></li>
-				${2:<li><a href="${1:#}">4</a></li>
-				<li><a href="${1:#}">5</a></li>}
-				<li>
-					<a href="${3:#}" aria-label="${4:Next}">
-						<span aria-hidden="true">&raquo;</span>
-						<span class="sr-only">${4:Next}</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
+<nav>
+	<ul class="pagination">
+		<li>
+			<a href="${3:#}" aria-label="${4:Previous}">
+				<span aria-hidden="true">&laquo;</span>
+				<span class="sr-only">${4:Previous}</span>
+			</a>
+		</li>
+		<li><a href="${1:#}">1</a></li>
+		<li><a href="${1:#}">2</a></li>
+		<li><a href="${1:#}">3</a></li>
+		${2:<li><a href="${1:#}">4</a></li>
+		<li><a href="${1:#}">5</a></li>}
+		<li>
+			<a href="${3:#}" aria-label="${4:Next}">
+				<span aria-hidden="true">&raquo;</span>
+				<span class="sr-only">${4:Next}</span>
+			</a>
+		</li>
+	</ul>
+</nav>
 ]]></content>
 	<tabTrigger>b4:pagination</tabTrigger>
 </snippet>

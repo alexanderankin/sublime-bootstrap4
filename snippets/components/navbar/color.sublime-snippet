@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-        <nav class="navbar navbar-${1:dark|light} bg-${2:inverse|primary} ${3:style="background-color: #e3f2fd;"}">
-          ${4:...}
-        </nav>
+<nav class="navbar navbar-${1:dark|light} bg-${2:inverse|primary} ${3:style="background-color: #e3f2fd;"}">
+  ${4:...}
+</nav>
 ]]></content>
 		<tabTrigger>b4:navbar:color</tabTrigger>
 </snippet>

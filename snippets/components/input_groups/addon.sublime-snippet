@@ -1,23 +1,23 @@
 <snippet>
 	<content><![CDATA[
-        <div class="row">
-			<div class="col-lg-6">
-				<div class="input-group">
-					<span class="input-group-btn">
-						<button class="btn btn-secondary" type="button">Go!</button>
-					</span>
-					<input type="text" class="form-control" placeholder="${1:Search for...}">
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="${1:Search for...}">
-					<span class="input-group-btn">
-						<button class="btn btn-secondary" type="button">Go!</button>
-					</span>
-				</div>
-			</div>
+<div class="row">
+	<div class="col-lg-6">
+		<div class="input-group">
+			<span class="input-group-btn">
+				<button class="btn btn-secondary" type="button">${1:Go!}</button>
+			</span>
+			<input type="text" class="form-control" placeholder="${2:Search for...}">
 		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="${3:Search for...}">
+			<span class="input-group-btn">
+				<button class="btn btn-secondary" type="button">${4:Go!}</button>
+			</span>
+		</div>
+	</div>
+</div>
 ]]></content>
 	<tabTrigger>b4:input_group:addon</tabTrigger>
 </snippet>

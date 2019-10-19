@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-        <span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>
+<span class="label label-pill label-${1:default|primary|success|info|warning|danger}">${2}</span>
 ]]></content>
 	<tabTrigger>b4:label:context</tabTrigger>
 </snippet>
