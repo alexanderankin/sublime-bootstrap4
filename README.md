@@ -5,8 +5,6 @@ Bootstrap 4 - Sublime Plugin :red_circle:
 
 ---
 
-Feel free to let me know what else you want added via Twitter [@DavidAnkin](https://twitter.com/DavidAnkin).
-
 ![](https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview.png)
 
 ## Installation
