@@ -1,8 +1,6 @@
 ============================================================
 Thank you for installing Bootstrap 4 Snippets
 ============================================================
-Follow me on Twitter: @de_gouville
-------------------------------------------------------------
 
 Bootstrap 4 snippets is a selection of snippets
 that will greatly improve your workflow.
@@ -11,4 +9,6 @@ This package is compatible with both Sublime
 Text versions 2 & 3.
 
 Documentation, examples & issue filing can be found here:
-https://github.com/degouville/sublime-bootstrap4
+https://github.com/alexanderankin/sublime-bootstrap4
+
+This is version: 4.5.2

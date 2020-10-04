@@ -26,3 +26,5 @@ Follow me on Twitter: @de_gouville
 Documentation, examples & issue filing can be found here:
 https://github.com/degouville/sublime-bootstrap4
 EOF
+
+sed -i "/This is version/s/.*/This is version: $1/" $repo_dir/messages/install.txt
