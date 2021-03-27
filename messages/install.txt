@@ -11,4 +11,4 @@ Text versions 2 & 3.
 Documentation, examples & issue filing can be found here:
 https://github.com/alexanderankin/sublime-bootstrap4
 
-This is version: 4.5.2
+This is version: 4.6.0

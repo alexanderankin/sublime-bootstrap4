@@ -19,12 +19,11 @@ Bootstrap 4 Snippets - Has been updated !! -> v$1
 ============================================================
         Bootstrap v$1 has been released !!
 ============================================================
-Follow me on Twitter: @de_gouville
 ------------------------------------------------------------
 
 ------------------------------------------------------------
 Documentation, examples & issue filing can be found here:
-https://github.com/degouville/sublime-bootstrap4
+https://github.com/alexanderankin/sublime-bootstrap4
 EOF
 
 sed -i "/This is version/s/.*/This is version: $1/" $repo_dir/messages/install.txt
