@@ -1,6 +1,7 @@
 <snippet>
+	<!-- no longer nav-stacked: https://stackoverflow.com/a/49243962 -->
 	<content><![CDATA[
-<ul class="nav nav-pills nav-stacked">
+<ul class="nav nav-pills flex-column">
 	<li class="nav-item">
 		<a href="${1:#}" class="nav-link active">${2:Active}</a>
 	</li>
